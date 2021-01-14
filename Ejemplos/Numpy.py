@@ -1,3 +1,8 @@
+'''
+    En este archivo podrás obtener algunos ejemplos
+    así como caracteristicas de numpy que te serán de
+    ayuda durante tu aprendizaje de ML
+'''
 import numpy as np
 import sys
 import time
@@ -32,16 +37,11 @@ def UseNumpyNow():
     inc = np.arange(0, 50, 5)
     print(inc)
     input()
-    print("Así mismo podemos trabajar con una matriz de aleatorios\n"
-          "más uniformes que con random.random, esto se hace utilizando\n"
-          "linespace como se muestra a continuación:")
-    lin = np.linespace(0, 2, 5)
-    print(lin)
-    input()
     print("Así mismo podemos crear matrices identidad de dos\n"
           "maneras bastante sencillas")
     identidad = np.eye(4,4)
     print(identidad)
+    print()
     identidad2 = np.identity(4)
     print(identidad2)
     input()
@@ -60,6 +60,27 @@ def UseNumpyNow():
     input()
     #Cambiando forma
     print("Así mismo podemos cambiar la forma de una matriz")
+    redi = np.array([(8, 9, 10), (11, 12, 13)])
+    print(redi)
+    print("Forma de la matriz:")
+    print(redi.shape)
+    redi = redi.reshape(3, 2)
+    print(redi)
+    print("Forma de la matriz:")
+    print(redi.shape)
+    input()
+    print("Ahora bien, para acceder u obtener alguno o todos los datos\n"
+          "de una matriz podemos acceder de la siguiente manera:")
+    print(identidad[0:, 1])
+    input()
+    print("Por otro lado, las operaciones con matrices es una de las\n"
+          "mayores simplicidades de esta libreria, ya que podemos obtener\n"
+          "el minimo, la suma, el maximo, entre otros de esta solo con una linea")
+    print("Minimo de la matriz Num "+ str(num.min())+"\nMaximo de la matriz Num"
+          + str(num.max())+"\nSuma de la matriz Num "+ str(num.sum())+"\nRaiz de la"
+            "matriz Num"+ str(np.sqrt(num))+"\nDesviación estandar de la matriz Num"
+          + str(np.std(num)))
+
 
 
 
