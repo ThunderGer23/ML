@@ -18,7 +18,7 @@ def UseNumpyNow():
     print(aleatorios)
     input()
     print("Matriz vacia:")
-    vacia = np.empty((3,4))
+    vacia = np.empty((3, 4))
     print(vacia)
     input()
     print("Matriz con un solo valor especifico:")
