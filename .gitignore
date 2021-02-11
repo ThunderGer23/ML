@@ -1,5 +1,3 @@
 /.idea/.gitignore
-/.idea/misc.xml
-/.idea/modules.xml
-./idea/other.xml
+./idea/*.xml
 /.idea/
