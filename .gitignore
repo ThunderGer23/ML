@@ -1,4 +1,4 @@
 /.idea/.gitignore
 ./idea/*.xml
-ML.iml
+/ML.iml
 /.idea/
